@@ -202,7 +202,7 @@ h1{
     display: none;
   }
   .section1, .section2, .section5, .section6, .section7{
-    background-position: center 30%;
+    background-position: center 10%;
   }
   .section2{
     background: linear-gradient(to right, #000000 50%,#000000bb), url("https://i0.wp.com/www.canalfreak.net/wp-content/uploads/2019/02/05hij.03.jpg?fit=1200%2C675&ssl=1");
@@ -224,14 +224,11 @@ h1{
     background: linear-gradient(to right, #000 50%, #00000000), url(https://img2.rtve.es/imagenes/superman-cumple-80-anos/1524134784000.jpg);
     background-size: cover;
   }
-  .section-conclusion{
-    width: 60%;
-  }
-  .section-content-conclusion{
+  .section-conclusion, .section-content-conclusion{
     width: 60%;
   }
 
-  .section-content{
+  .section-content, .section-content2{
     width: 50%;
   }
 }
