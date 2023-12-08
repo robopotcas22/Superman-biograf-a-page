@@ -19,8 +19,8 @@ h1{
   justify-content: center;
   animation: img-animation;
   animation-duration: 1s;
-  width: 300%;
-  height: 150%;
+  width: 300vw;
+  height: 30vh;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   padding: 20px 0px 20px ;
@@ -179,23 +179,6 @@ h1{
     z-index: 1;
   }
 }
-@media (max-width:635px) {
-  .superman-image{
-    width: 200px;
-  }
-  .image-contenedor{
-    width: 100%;
-    margin: auto;
-
-  }
-  h1{
-    width: auto;
-    text-align: center;
-  }
-  body{
-    width: auto;
-  }
-}
 @keyframes showElements{
   from{
     opacity: 0;
@@ -206,3 +189,56 @@ h1{
     z-index: 0;
   }
 }
+ @media (max-width : 1300px) and (min-width : 900px) {
+  .image-contenedor{
+   width: 600vw;
+   height: 30vh;
+   margin: 5%;
+  }
+} 
+@media (max-width:899px) and (min-width : 300px){
+  
+  .image-contenedor{
+    display: none;
+  }
+  .section1, .section2, .section5, .section6, .section7{
+    background-position: center 30%;
+  }
+  .section2{
+    background: linear-gradient(to right, #000000 50%,#000000bb), url("https://i0.wp.com/www.canalfreak.net/wp-content/uploads/2019/02/05hij.03.jpg?fit=1200%2C675&ssl=1");
+    background-size: cover;
+  }
+  .section4{
+    background: linear-gradient(to right,#000 50%, rgba(0, 0, 0, 0.651) );
+    background-size: cover;
+  }
+  .section5{
+    background: linear-gradient(to right, #000 50%, #00000000), url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/05/personajes-dc-1939047.jpg?tf=1200x);
+    background-size: cover;
+  }
+  .section6{
+    background: linear-gradient(to right, #000 50%, #00000000), url(https://i0.wp.com/elfarandi.com/wp-content/uploads/2023/02/comics-de-superman-que-debes-leer.jpg?fit=1200%2C672&ssl=1);
+    background-size: cover;
+  }
+  .section7{
+    background: linear-gradient(to right, #000 50%, #00000000), url(https://img2.rtve.es/imagenes/superman-cumple-80-anos/1524134784000.jpg);
+    background-size: cover;
+  }
+  .section-conclusion{
+    width: 60%;
+  }
+  .section-content-conclusion{
+    width: 60%;
+  }
+
+  .section-content{
+    width: 50%;
+  }
+}
+@media (max-width:450px) and (min-width:300px){
+  .section3{
+    background: linear-gradient(to right,#000 50%, rgba(0, 0, 0, 0.651)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmbDmsANFJ74OCbcw0VG7oYXW2zLFsYuwf3g&usqp=CAU");
+    background-size: cover;
+  }
+}
+
